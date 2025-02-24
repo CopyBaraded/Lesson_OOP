@@ -5,7 +5,14 @@ public class Product {
     String name, manufacturer, country;
     Date date;
     double price;
-    boolean status;
+    boolean status; //сделать отдельным методом проверки болни
 
-    public Product()
+    public Product(String name, String manufacturer, String country, Date date, double price, boolean status) {
+        name = name;
+        manufacturer = manufacturer;
+        country = country;
+        date = date;
+        price =price;
+        status = status;
+    }
 }
