@@ -15,12 +15,11 @@ productsArray[4] = new Product(...);
 
 public class Main {
     public static void main(String[] args) {
+        Product[] productsArray = new Product[5];
 
+        productsArray[0] = new Product("Sums S25 U", "Sum corp.", "Asia", "13.01.2025", 2500, false);
 
-
-        Product prod = new Product("Sums S25 U", "Sum corp.", "Asia", "13.01.2025", 2500, false);
-
-        prod.productInfo();
+        productsArray[0].productInfo();
 
     }
 }
