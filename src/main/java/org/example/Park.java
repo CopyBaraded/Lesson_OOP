@@ -18,6 +18,12 @@ public class Park {
             this.time = time;
             this.price = price;
         }
+
+        public void parkInfo(){
+            System.out.println("В парке " + namePark + " пользуется спросом аттракцион "
+                    + nameAttraction + " который работает в удобное время "
+                    + time + " с доступной ценой " + price);
+        }
     }
 
 

@@ -28,6 +28,7 @@ public class Main {
         Park imGorkogo = new Park("им. М.Горького");
 
         Park.SaveInfoPark haliGali = imGorkogo.new SaveInfoPark("Хали-Гали ", "с 8:00 до 21.00 ", 13);
+        haliGali.parkInfo();
 
     }
 }
