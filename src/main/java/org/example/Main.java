@@ -24,7 +24,6 @@ public class Main {
         productsArray[4] = new Product("Nokia 3310", "Human Mobile Devices", "Finland", "26.02.2017", 100, false);
 
 
-        productsArray[4].productInfo();
-
+        productsArray[2].productInfo();
     }
 }
