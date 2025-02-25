@@ -3,16 +3,17 @@ import java.util.Date;
 
 public class Product {
     String name, manufacturer, country;
-    Date date;
+    String date;
     double price;
     boolean status; //сделать отдельным методом проверки болни
 
-    public Product(String name, String manufacturer, String country, Date date, double price, boolean status) {
-        name = name;
-        manufacturer = manufacturer;
-        country = country;
-        date = date;
-        price =price;
-        status = status;
+    public Product(String name, String manufacturer, String country, String date, double price, boolean status) {
+        this.name = name;
+        this.manufacturer = manufacturer;
+        this.country = country;
+        this.date = date;
+        this.price =price;
+        this.status = status;
     }
+
 }
